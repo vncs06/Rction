@@ -32,6 +32,7 @@ packages/
 .vs/
 .idea/
 .vscode/
+.github/
 
 # OS-specific
 Thumbs.db
