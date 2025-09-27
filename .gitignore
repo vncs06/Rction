@@ -1,0 +1,51 @@
+# .NET / Visual Studio / MAUI
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pdb
+*.cache
+*.ilk
+*.obj
+*.idb
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Logs
+*.log
+
+# IDEs
+.vs/
+.idea/
+.vscode/
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# MAUI / Windows specific
+**/publish/
+JellyfinMauiClient/Platforms/Windows/AppPackages/
+JellyfinMauiClient/Platforms/Windows/BundleArtifacts/
+
+# Local release folder
+/release/
+/Release/
+
+# Installer artifacts (Squirrel)
+/installer/dist/
+/installer/tools/squirrel.exe
+
+# Temporary/backup files
+*.tmp
+*.bak
+*.old
+~$*

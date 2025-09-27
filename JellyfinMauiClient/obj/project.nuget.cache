@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "dgSpecHash": "pVE49BKrVKg=",
+  "success": true,
+  "projectFilePath": "C:\\Programas\\Rction\\JellyfinMauiClient\\JellyfinMauiClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gvini\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.extensions.logging\\8.0.1\\microsoft.extensions.logging.8.0.1.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.graphics.win2d\\1.2.0\\microsoft.graphics.win2d.1.2.0.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.io.recyclablememorystream\\3.0.1\\microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.maui.controls\\8.0.100\\microsoft.maui.controls.8.0.100.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.100\\microsoft.maui.controls.build.tasks.8.0.100.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.maui.controls.compatibility\\8.0.100\\microsoft.maui.controls.compatibility.8.0.100.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.maui.controls.core\\8.0.100\\microsoft.maui.controls.core.8.0.100.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.maui.controls.xaml\\8.0.100\\microsoft.maui.controls.xaml.8.0.100.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.maui.core\\8.0.100\\microsoft.maui.core.8.0.100.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.maui.essentials\\8.0.100\\microsoft.maui.essentials.8.0.100.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.maui.graphics\\8.0.100\\microsoft.maui.graphics.8.0.100.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\8.0.100\\microsoft.maui.graphics.win2d.winui.desktop.8.0.100.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.100\\microsoft.maui.resizetizer.8.0.100.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.web.webview2\\1.0.2651.64\\microsoft.web.webview2.1.0.2651.64.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.windowsappsdk\\1.6.240829007\\microsoft.windowsappsdk.1.6.240829007.nupkg.sha512",
+    "C:\\Users\\gvini\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.56\\microsoft.windows.sdk.net.ref.10.0.19041.56.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "JellyfinMauiClient depends on Microsoft.WindowsAppSDK (>= 1.6.0 && < 2.0.0) but Microsoft.WindowsAppSDK 1.6.0 was not found. An approximate best match of Microsoft.WindowsAppSDK 1.6.240829007 was resolved.",
+      "libraryId": "Microsoft.WindowsAppSDK",
+      "targetGraphs": [
+        "net8.0-windows10.0.19041",
+        "net8.0-windows10.0.19041/win10-x64"
+      ]
+    }
+  ]
+}
