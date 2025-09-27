@@ -1,0 +1,21 @@
+name: block-binaries
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fail on binary artifacts committed
+        run: |
+          set -e
+          banned_exts='(\.exe|\.dll|\.msi|\.appx|\.appxbundle|\.msix|\.msixbundle|\.winmd|\.pri|\.nupkg|\.snupkg)$'
+          if git ls-files | grep -Ei "$banned_exts"; then
+            echo "Found banned binary artifacts tracked in git. Remove them and update .gitignore." >&2
+            exit 1
+          fi
