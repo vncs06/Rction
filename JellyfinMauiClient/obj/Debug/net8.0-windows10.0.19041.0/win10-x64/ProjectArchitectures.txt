@@ -1,1 +1,0 @@
-c:\Programas\Rction\JellyfinMauiClient\JellyfinMauiClient.csproj;x64

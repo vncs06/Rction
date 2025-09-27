@@ -10,6 +10,15 @@
 *.ilk
 *.obj
 *.idb
+*.dll
+*.exe
+*.msi
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.winmd
+*.pri
 
 # NuGet
 *.nupkg
@@ -43,6 +52,7 @@ JellyfinMauiClient/Platforms/Windows/BundleArtifacts/
 # Installer artifacts (Squirrel)
 /installer/dist/
 /installer/tools/squirrel.exe
+Setup.exe
 
 # Temporary/backup files
 *.tmp
